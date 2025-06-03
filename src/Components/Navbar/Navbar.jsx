@@ -28,6 +28,14 @@ const Navbar = () => {
           Register
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/signup"
+          className={({ isActive }) => (isActive ? "text-blue-600" : "")}
+        >
+          Signup
+        </NavLink>
+      </li>
     </>
   );
   return (
