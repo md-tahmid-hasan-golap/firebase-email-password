@@ -42,7 +42,7 @@ const Signup = () => {
           </div>
           <button className="btn btn-neutral mt-4">Sign Up</button>
         </form>
-        {errorMassage && <p className="text-red-500">{errorMassage}</p>}
+        {/* {errorMassage && <p className="text-red-500">{errorMassage}</p>} */}
       </div>
     </div>
   );
